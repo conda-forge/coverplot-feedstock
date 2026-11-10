@@ -1,5 +1,5 @@
 context:
-  version: "1.0.0"
+  version: "1.1.0"
 
 package:
   name: coverplot
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://gitlab.com/earthscope/public/epic/passoft/coverplot/-/archive/v${{ version }}/coverplot-v${{ version }}.tar.gz
-  sha256: 4845af85a02e71c059d1e425898df38cdb66f558c747a31af5b9b4b8a888ec30
+  sha256: db2497a146cf4b55e376afbd8dbd8ac63fadf3763ededf299a6ae5e798c3b48c
 
 build:
   noarch: python
